@@ -39,7 +39,7 @@
 
 .i-title-wrapper{
   height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
+  animation: move 5s ease-in-out infinite alternate;
 }
 
 @keyframes move {
@@ -61,7 +61,7 @@
   height: 50px;
   font-size: 30px;
   font-weight: bold;
-  color: green;
+  color: orangered;
   display: flex;
   align-items: center;
 }
