@@ -1,2 +1,2 @@
 # portfolio
-This is Jimmy's portfolio
+Jimmy's portfolio
