@@ -1,5 +1,5 @@
 import "./intro.css"
-import Me from "../../img/portrait.jpg"
+import Me from "../../img/mini-golf.jpg"
 
 const Intro = () => {
   return (
@@ -19,6 +19,8 @@ const Intro = () => {
           </div>
           <div className="i-desc">
             I am a passionate Full-stack Developer based in London
+            <a href="https://github.com/jimmehyuen"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/jimmy-yuen"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
