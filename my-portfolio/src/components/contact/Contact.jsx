@@ -1,12 +1,21 @@
-import { useRef } from "react"
+import { useRef, useState } from "react"
 import "./contact.css"
+import emailjs from '@emailjs/browser';
+// import emailjs from 'emailjs-com';
 
 const Contact = () => {
-  const formRef = useRef()
+  const formRef = useRef();
+  const [done, setDone] =useState(false)
 
   const handleSubmit = (e)=>{
     e.preventDefault()
-
+    emailjs.sendForm('service_d3julxg', 'template_vg9nzz6', formRef.current, 'V7-z5ytDokvKfF5hY')
+    .then((result) => {
+        console.log(result.text);
+        setDone(true)
+    }, (error) => {
+        console.log(error.text);
+    });
   }
 
   return (
@@ -38,6 +47,7 @@ const Contact = () => {
             <input type="text" placeholder="Email" name="user_email" />
             <textarea rows="10" placeholder="Message" name="message"></textarea>
             <button>Submit</button>
+            {done && "Thank you for your message"}
           </form>
         </div>
       </div>
