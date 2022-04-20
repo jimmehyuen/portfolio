@@ -18,19 +18,21 @@ position: relative;
 
 .c-left{
   flex: 1;
+  margin-left: 50px;
 }
 
 .c-right{
   flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
 .c-title{
   font-size: 60px;
   width: 80%;
+  margin-bottom: 50px;
 }
 
 .c-info.item{
@@ -41,6 +43,11 @@ position: relative;
   width: 70%;
 }
 
+.noDec{
+  text-decoration: none;
+  vertical-align: top;
+}
+
 .c-icon{
   width: 30px;
   height: 30px;
@@ -49,6 +56,8 @@ position: relative;
 
 .c-desc{
   font-weight: 200;
+  margin-bottom: 50px;
+  /* vertical-align: middle; */
 }
 
 form{

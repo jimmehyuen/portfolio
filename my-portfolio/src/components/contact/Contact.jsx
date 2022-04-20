@@ -31,18 +31,20 @@ const Contact = () => {
           </h1>
           <div className="c-info">
             <div className="c-info-item">
-              <img src="phone.svg" alt="" className="c-icon" />
-              +77 3000 5429
+              <img src="phone.png" alt="" className="c-icon" />
+              <a class="noDec" href="tel:+44 77 3000 5429">+44 77 3000 5429</a>
             </div>
             <div className="c-info-item">
-              <img src="email.svg" alt="" className="c-icon" />
-              jimmehyuen@gmail.com
+              <img src="email.png" alt="" className="c-icon" />
+              <a class="noDec" href="mailto:jimmehyuen@gmail.com">jimmehyuen@gmail.com</a>
             </div>
           </div>
         </div>
         <div className="c-right">
           <p className="c-desc">
             <b>Get in touch</b>
+            <p>Whether you have a question or just want to say hi, I'll try my
+best to get back to you!</p>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input style={{backgroundColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name" />
