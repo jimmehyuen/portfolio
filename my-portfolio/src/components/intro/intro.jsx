@@ -1,5 +1,7 @@
 import "./intro.css"
 import Me from "../../img/mini-golf.jpg"
+import bgImage from "../../video/matrix.mp4"
+import React from "react"
 
 const Intro = () => {
   return (
@@ -25,7 +27,12 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        <img src={Me} alt="" className="i-img" />
+        {/* <img src={Me} alt="" className="i-img" /> */}
+        <video autoPlay loop muted>
+        <source
+         src={bgImage} type="video/mp4" className="i-bg"
+        />
+        </video>
       </div>
     </div>
   )

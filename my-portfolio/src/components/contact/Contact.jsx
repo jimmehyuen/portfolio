@@ -32,11 +32,11 @@ const Contact = () => {
           <div className="c-info">
             <div className="c-info-item">
               <img src="phone.png" alt="" className="c-icon" />
-              <a class="noDec" href="tel:+44 77 3000 5429">+44 77 3000 5429</a>
+              <a class="noDec" href="tel:+44 77 3000 5429" Text style={{color: darkMode && "white"}}>+44 77 3000 5429</a>
             </div>
             <div className="c-info-item">
               <img src="email.png" alt="" className="c-icon" />
-              <a class="noDec" href="mailto:jimmehyuen@gmail.com">jimmehyuen@gmail.com</a>
+              <a class="noDec" href="mailto:jimmehyuen@gmail.com" Text style={{color: darkMode && "white"}}>jimmehyuen@gmail.com</a>
             </div>
           </div>
         </div>

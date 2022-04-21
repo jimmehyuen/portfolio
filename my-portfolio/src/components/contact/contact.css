@@ -6,9 +6,8 @@ position: relative;
 .c-bg{
   width: 20px;
   height: 100%;
-  background-color: #59b256;
+  background-color: #2EC360;
   position: absolute;
-
 }
 
 .c-wrapper{
@@ -84,7 +83,7 @@ textarea{
 button{
   border: none;
   padding: 15px;
-  background-color: #59b256;
+  background-color: #2EC360;
   color: white;
   font-weight: 500;
   cursor: pointer;
@@ -98,6 +97,7 @@ button{
 
   .c-title{
     font-size: 30px;
+    margin-top: 50px;
   }
 
   .c-info-item{
@@ -124,5 +124,6 @@ button{
 
   button{
     margin-top: 10px;
+    margin: 0 auto;
   }
 }
