@@ -32,6 +32,10 @@ font-weight: 600;
     padding: 10px;
   }
 
+  .pl-title{
+    font-size: 35px;
+  }
+
   .pl-text{
     width: 65%;
   }
