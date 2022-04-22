@@ -42,8 +42,8 @@ const Contact = () => {
         </div>
         <div className="c-right">
           <p className="c-desc">
-            <b>Get in touch</b>
-            <p>Whether you have a question or just want to say hi, I'll try my
+            <b>Alternatively</b>
+            <p>Feel free to leave a message below and I'll try my
 best to get back to you!</p>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>

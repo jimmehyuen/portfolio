@@ -1,5 +1,4 @@
 import "./intro.css"
-import Me from "../../img/mini-golf.jpg"
 import bgImage from "../../video/matrix.mp4"
 import React from "react"
 
@@ -21,8 +20,10 @@ const Intro = () => {
           </div>
           <div className="i-desc">
             I am an aspiring Full-stack Developer based in London
-            <a href="https://github.com/jimmehyuen"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/jimmy-yuen"><i class="fab fa-linkedin"></i></a>
+          </div>
+          <div className="i-icon-wrapper">
+            <a href="https://github.com/jimmehyuen" target="_blank" rel="noreferrer"><img src="github.png" class="i-icon" alt="" /></a>
+            <a href="https://www.linkedin.com/in/jimmy-yuen" target="_blank" rel="noreferrer"><img src="linkedin.png" class="i-icon" alt="" /></a>
           </div>
         </div>
       </div>

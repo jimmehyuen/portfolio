@@ -47,6 +47,20 @@
   text-align: center;
 }
 
+.i-icon-wrapper{
+  position: relative;
+}
+
+.i-icon{
+  height: 50px;
+  margin-right: 10px;
+  opacity: 0.8;
+}
+
+.i-icon:hover{
+  opacity: 1;
+}
+
 video{
   width: 100%;
   height: 100%;
@@ -109,5 +123,17 @@ video{
 
   .i-name{
     margin: 20px;
+  }
+
+  .i-icon-wrapper{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .i-icon{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
   }
 }
