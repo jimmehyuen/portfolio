@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
+  height: 80vh;
 }
 
 .pl-text{
@@ -23,7 +24,8 @@ font-weight: 600;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
 
 
@@ -34,6 +36,7 @@ font-weight: 600;
 
   .pl-title{
     font-size: 35px;
+    margin-top: 50px;
   }
 
   .pl-text{
