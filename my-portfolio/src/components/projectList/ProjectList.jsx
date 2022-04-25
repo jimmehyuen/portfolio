@@ -9,9 +9,16 @@ const ProjectList = () => {
        <h1 className="pl-title">My Projects</h1>
        {/* <p className="pl-desc">Description</p> */}
       </div>
+
       <div className="pl-list">
         {projects.map((item) => (
-          <Project key={item.id} img={item.img} link={item.link} desc={item.desc} />
+          <div className="pl-wrapper">
+            <div className="pj-title">
+              {item.title}
+            </div>
+            <Project key={item.id} img={item.img} link={item.link} />
+            <div>{item.desc}</div>
+          </div>
         ))}
       </div>
     </div>
