@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 80vh;
+  height: auto;
 }
 
 .pl-text{
@@ -24,10 +24,10 @@ margin-bottom: 50px;
 .pl-list{
   width: 100%;
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
 }
 
 .pj-title{
@@ -35,9 +35,20 @@ margin-bottom: 50px;
   font-size:xx-large;
 }
 
+.pj-image{
+  /* text-align: center; */
+  /* display: block; */
+  /* margin: 0 auto; */
+}
+
+.pl-wrapper{
+  text-align: center;
+}
+
 @media screen and (max-width: 480px){
   .pl{
     padding: 10px;
+    height: auto;
   }
 
   .pl-title{

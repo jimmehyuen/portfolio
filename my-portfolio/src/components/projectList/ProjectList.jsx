@@ -16,8 +16,13 @@ const ProjectList = () => {
             <div className="pj-title">
               {item.title}
             </div>
+
+            <div className="pj-image">
             <Project key={item.id} img={item.img} link={item.link} />
+
+            </div>
             <div>{item.desc}</div>
+
           </div>
         ))}
       </div>

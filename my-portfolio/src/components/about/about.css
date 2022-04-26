@@ -49,13 +49,24 @@
   font-size: 50px;
 }
 
-.a-sub{
-  margin: 20px 0px;
+.a-desc{
+  font-size: 20px;
+  margin: 10px auto 10px;
 }
 
-.a-desc{
-  font-weight: normal;
-  font-size: 25px;
+.techstack{
+
+}
+
+.techstack-title{
+  font-size: 30px;
+  margin: 30px auto 10px;
+}
+
+.tech-icons{
+  height: 80px;
+  width: 80px;
+  display: inline-block;
 }
 
 @media screen and (max-width: 480px){
@@ -74,6 +85,10 @@
     height: 30vh;
     position: relative;
     margin-bottom: 20%;
+  }
+
+  .a-desc{
+    font-size: 15px;
   }
 
   .a-right{
