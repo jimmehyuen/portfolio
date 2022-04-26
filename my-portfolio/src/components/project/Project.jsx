@@ -1,6 +1,6 @@
 import "./project.css"
 
-const Project = ({img,link}) => {
+const Project = ({img,link,title}) => {
   return (
     <div className="p">
       <div className="p-browser">
@@ -11,6 +11,7 @@ const Project = ({img,link}) => {
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="p-img" />
       </a>
+      <div>{title}</div>
     </div>
   )
 }

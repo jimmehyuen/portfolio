@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  height: 80vh;
+  height: auto;
 }
 
 .pl-text{
@@ -14,6 +14,7 @@
 .pl-title{
 font-size: 50px;
 font-weight: 600;
+/* margin-bottom: 50px; */
 }
 
 .pl-desc{
@@ -21,17 +22,49 @@ font-weight: 600;
 }
 
 .pl-list{
-  width: 100%;
+  /* width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-top: 100px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center; */
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem; */
 }
 
+.pj-title{
+  font-weight: bold;
+  font-size:xx-large;
+  margin-top: 30px;
+}
+
+.pj-desc{
+  margin: 10px auto 10px;
+}
+
+.pj-image{
+  /* text-align: center; */
+  /* display: block; */
+  /* margin: 0 auto; */
+}
+
+.pl-wrapper{
+  text-align: center;
+}
+
+.pj-github{
+  height: 50px;
+  opacity: 0.8;
+}
+
+.pj-github:hover{
+  opacity: 1;
+}
 
 @media screen and (max-width: 480px){
   .pl{
     padding: 10px;
+    height: auto;
   }
 
   .pl-title{
@@ -45,5 +78,9 @@ font-weight: 600;
 
   .pl-desc{
     display: none;
+  }
+
+  .pj-title{
+  font-size:large;
   }
 }
