@@ -11,9 +11,9 @@ const ProjectList = () => {
       </div>
 
       <div className="pl-list">
-        <div className="pj-card">
-          {projects.map((item) => (
-            <div className="pl-wrapper">
+        {projects.map((item) => (
+          <div className="pl-wrapper">
+            <div className="pj-card">
               <div className="pj-title">
                 {item.title}
               </div>
@@ -28,8 +28,8 @@ const ProjectList = () => {
                 <img src="github.png" alt="" className="pj-github" />
               </a>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </div>
   )
