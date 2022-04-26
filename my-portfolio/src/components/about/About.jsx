@@ -19,6 +19,7 @@ const About = () => {
           <img className="tech-icons" src="techstack/html5.svg" alt="html" />
           <img className="tech-icons" src="techstack/css3.svg" alt="css" />
           <img className="tech-icons" src="techstack/javascript.svg" alt="javascript" />
+          <img className="tech-icons" src="techstack/react.svg" alt="react" />
           <img className="tech-icons" src="techstack/ruby.svg" alt="ruby" />
           <img className="tech-icons" src="techstack/rails.svg" alt="rails" />
           <img className="tech-icons" src="techstack/bootstrap.svg" alt="bootstrap" />

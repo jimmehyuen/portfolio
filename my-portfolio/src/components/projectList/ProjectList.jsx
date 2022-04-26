@@ -21,7 +21,7 @@ const ProjectList = () => {
             <Project key={item.id} img={item.img} link={item.link} />
 
             </div>
-            <div>{item.desc}</div>
+            <div className="pj-desc">{item.desc}</div>
 
           </div>
         ))}
