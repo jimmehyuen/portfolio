@@ -52,6 +52,15 @@ font-weight: 600;
   text-align: center;
 }
 
+.pj-github{
+  height: 50px;
+  opacity: 0.8;
+}
+
+.pj-github:hover{
+  opacity: 1;
+}
+
 @media screen and (max-width: 480px){
   .pl{
     padding: 10px;
