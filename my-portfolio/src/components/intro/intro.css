@@ -145,7 +145,7 @@ video{
   }
 
   .i-right{
-    filter: blur(1px);
+    /* filter: blur(1px); */
     clip-path: polygon(50% 100%, 0 0, 100% 0);
   }
 }

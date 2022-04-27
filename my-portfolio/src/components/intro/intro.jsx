@@ -14,7 +14,7 @@ const Intro = () => {
               <div className="i-title-item">HTML</div>
               <div className="i-title-item">CSS</div>
               <div className="i-title-item">JavaScript</div>
-              <div className="i-title-item">Ruby</div>
+              <div className="i-title-item">Ruby on Rails</div>
               <div className="i-title-item">React</div>
             </div>
           </div>

@@ -2,19 +2,20 @@
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   height: auto;
 }
 
 .pl-text{
-  width: 65%;
+  /* width: 65%; */
 }
 
 .pl-title{
 font-size: 50px;
 font-weight: 600;
-/* margin-bottom: 50px; */
+margin-bottom: 50px;
+text-align: center;
 }
 
 .pl-desc{
@@ -30,6 +31,9 @@ font-weight: 600;
   /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 .pj-card{
@@ -42,12 +46,21 @@ font-weight: 600;
   box-shadow: 0 3px 10px var(--primary-shadow); */
   padding: 20px;
   margin: 10px;
+  width: 500px;
+  height: 690px;
 
   border-radius: 8px;
   backdrop-filter: blur(20px);
   background-color: rgba(255, 255, 255, 0);
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.3);
+  flex: 0 1 50%;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(46,195,96,1) 100%);
+}
+
+.pj-main{
+  height: 600px;
 }
 
 .pj-title{
@@ -64,10 +77,6 @@ font-weight: 600;
   /* text-align: center; */
   /* display: block; */
   /* margin: 0 auto; */
-}
-
-.pl-wrapper{
-  text-align: center;
 }
 
 .pj-github{
@@ -90,12 +99,17 @@ font-weight: 600;
     margin-top: 50px;
   }
 
-  .pl-text{
-    width: 65%;
-  }
-
   .pl-desc{
     display: none;
+  }
+
+  .pj-card{
+    width: auto;
+    height:fit-content;
+  }
+
+  .pj-main{
+    height: fit-content;
   }
 
   .pj-title{
