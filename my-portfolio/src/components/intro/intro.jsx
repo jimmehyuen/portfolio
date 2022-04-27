@@ -1,8 +1,21 @@
 import "./intro.css"
 import bgImage from "../../video/matrix.mp4"
-import React from "react"
+import React, { useEffect, useRef } from "react"
+import { init } from 'ityped'
+
 
 const Intro = () => {
+
+  const textRef = useRef();
+
+  useEffect(()=>{
+    init(textRef.current, {
+      showCursor: true,
+      backDelay: 1500,
+      backSpeed: 60,
+      strings: ['Front-end Developer', 'Back-end Developer', 'UI/UX Designer' ] })
+  },[])
+
   return (
     <div className="i">
       <div className="i-left">
@@ -11,9 +24,7 @@ const Intro = () => {
           <h1 className="i-name">Jimmy Yuen</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Front-end Developer</div>
-              <div className="i-title-item">Back-end Developer</div>
-              <div className="i-title-item">UI/UX Designer</div>
+            <span className="i-title-text" ref={textRef}></span>
             </div>
           </div>
           <div className="i-desc">
