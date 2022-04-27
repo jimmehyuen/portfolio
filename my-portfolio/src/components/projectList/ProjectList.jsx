@@ -20,9 +20,11 @@ const ProjectList = () => {
                 <div className="pj-desc">{item.desc}</div>
               </div>
               <div className="button-wrapper">
-                <a href={item.github} target="_blank" rel="noreferrer">
-                <img src="github.png" alt="" className="pj-github" />
-                </a>
+
+                <a class="btn btn-gradient" href={item.github}target="_blank" rel="noreferrer">Code</a>
+
+                <a class="btn btn-gradient" href={item.link}target="_blank" rel="noreferrer">Website</a>
+
               </div>
             </div>
           </div>
