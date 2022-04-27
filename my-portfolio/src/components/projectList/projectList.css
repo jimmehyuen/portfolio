@@ -1,20 +1,21 @@
 .pl{
   padding: 50px 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  /* display: flex;
+  flex-direction: column; */
+  /* align-items: center; */
+  /* text-align: center; */
   height: auto;
 }
 
 .pl-text{
-  width: 65%;
+  /* width: 65%; */
 }
 
 .pl-title{
 font-size: 50px;
-font-weight: 600;
-/* margin-bottom: 50px; */
+font-weight: bold;
+margin-bottom: 50px;
+text-align: center;
 }
 
 .pl-desc{
@@ -30,16 +31,48 @@ font-weight: 600;
   /* display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2.5rem; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.pj-card{
+  /* background-color: green; */
+  /* padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent; */
+
+  /* border-radius: 11px;
+  box-shadow: 0 3px 10px var(--primary-shadow); */
+  padding: 20px;
+  margin: 10px;
+  width: 500px;
+  height: 690px;
+
+  border-radius: 8px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  flex: 0 1 50%;
+  background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(46,195,96,1) 100%);
+}
+
+.pj-main{
+  height: 600px;
 }
 
 .pj-title{
   font-weight: bold;
   font-size:xx-large;
   margin-top: 30px;
+  text-align: center;
 }
 
 .pj-desc{
   margin: 10px auto 10px;
+  text-align: center;
 }
 
 .pj-image{
@@ -48,16 +81,37 @@ font-weight: 600;
   /* margin: 0 auto; */
 }
 
-.pl-wrapper{
-  text-align: center;
-}
-
 .pj-github{
   height: 50px;
   opacity: 0.8;
 }
 
 .pj-github:hover{
+  opacity: 1;
+}
+
+.button-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.btn-gradient {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: linear-gradient(rgba(46,195,96,1) 80%);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(rgba(46,195,96,1) 100%);
+  color: white;
   opacity: 1;
 }
 
@@ -72,12 +126,17 @@ font-weight: 600;
     margin-top: 50px;
   }
 
-  .pl-text{
-    width: 65%;
-  }
-
   .pl-desc{
     display: none;
+  }
+
+  .pj-card{
+    width: auto;
+    height:fit-content;
+  }
+
+  .pj-main{
+    height: fit-content;
   }
 
   .pj-title{
