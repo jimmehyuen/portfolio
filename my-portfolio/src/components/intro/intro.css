@@ -39,8 +39,8 @@
 
 .i-title-wrapper{
   height: 100%;
-  animation: move 3s ease-in-out infinite alternate;
-  text-align: center;
+  /* animation: move 3s ease-in-out infinite alternate; */
+  text-align: left;
 }
 
 .i-title-item{
@@ -68,30 +68,31 @@ video{
   position: absolute;
 }
 
-
-@keyframes move {
-  50% {
-    transform: translateY(-50px);
-  }
-  100% {
-    transform: translateY(-100px);
-  }
-  }
-
-.i-title-item{
-  height: 50px;
-  font-size: 30px;
-  font-weight: bold;
-  color: orangered;
-  display: flex;
-  align-items: center;
-}
-
 .i-img{
   width: 100%;
   height: 100%;
   object-fit: cover;
   position: absolute;
+}
+
+.i-title-text{
+  color: #2EC360;
+  font-size: 20px;
+  /* font-family: consolas; */
+}
+
+.ityped-cursor{
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50%{
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+  }
 }
 
 @media screen and (max-width: 480px){
