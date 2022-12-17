@@ -30,8 +30,8 @@ position: relative;
 
 .c-title{
   font-size: 60px;
-  width: 80%;
-  margin-bottom: 50px;
+  /* width: 80%; */
+  margin: 0 5% 5% 0;
 }
 
 .c-info.item{
@@ -56,12 +56,13 @@ position: relative;
 
 .c-desc{
   font-weight: 200;
+  margin: 5% 0 5% 0;
   /* margin-bottom: 50px; */
   /* vertical-align: middle; */
 }
 
 form{
-  margin-top: 20px;
+  margin-top: 5%;
 }
 
 input{
@@ -95,9 +96,13 @@ button:hover{
   opacity: 1;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 801px){
   .c{
     height: auto;
+  }
+
+  .c-bg{
+    display: none;
   }
 
   .c-wrapper {
@@ -108,7 +113,7 @@ button:hover{
   .c-title{
     font-size: 30px;
     margin-top: 50px;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .c-info-item{
@@ -117,8 +122,8 @@ button:hover{
     /* text-align: center; */
   }
 
-  .c-desc{
-    display: none;
+  .c-left{
+    margin-left: 0px;
   }
 
   form{
@@ -137,5 +142,20 @@ button:hover{
   button{
     margin-top: 10px;
     margin: 20px auto;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .c-wrapper{
+    text-align: center;
+    /* align-items: center; */
+  }
+
+  .c-desc{
+    display: none;
+  }
+
+  .c-title{
+    margin: 5%;
   }
 }

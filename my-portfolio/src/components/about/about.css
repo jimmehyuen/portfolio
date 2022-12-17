@@ -30,6 +30,7 @@
   width: 60%;
   /* height: 70vh; */
   position: relative;
+  margin: 5%;
   padding: 5%;
   /* top: 50%; */
   /* transform: translateY(-50%); */
@@ -77,6 +78,10 @@
     height: auto;
   }
 
+  .a-card{
+    margin: auto;
+  }
+
   .a-img{
     /* height: max-content; */
   }
@@ -96,9 +101,9 @@
   }
 
   .a-card{
-    height: 30vh;
+    /* height: 30vh; */
     position: relative;
-    margin-bottom: 20%;
+    /* margin-bottom: 20%; */
   }
 
   .a-desc{
