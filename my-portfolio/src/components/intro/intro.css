@@ -95,9 +95,30 @@ video{
   }
 }
 
+@media screen and (max-width: 801px){
+  .i-left{
+    /* background-image: url("../../video/matrix.gif"); */
+  }
+
+  .i-right{
+    /* filter: blur(1px); */
+    /* clip-path: polygon(50% 100%, 0 0, 100% 0); */
+    display: none;
+  }
+
+  .i-left-wrapper{
+    text-align: center;
+  }
+
+  .i-title-wrapper{
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 480px){
   .i{
-    flex-direction: column;
+    /* flex-direction: column; */
+    height: 50vh;
   }
 
   .i-left-wrapper{
@@ -137,10 +158,5 @@ video{
     height: 100%;
     object-fit: cover;
     position: absolute;
-  }
-
-  .i-right{
-    /* filter: blur(1px); */
-    clip-path: polygon(50% 100%, 0 0, 100% 0);
   }
 }
