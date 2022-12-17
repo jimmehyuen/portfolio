@@ -43,7 +43,6 @@ position: relative;
 }
 
 .noDec{
-  text-decoration: none;
   vertical-align: top;
   /* align-items: center; */
 }
@@ -59,10 +58,6 @@ position: relative;
   margin: 5% 0 5% 0;
   /* margin-bottom: 50px; */
   /* vertical-align: middle; */
-}
-
-form{
-  margin-top: 5%;
 }
 
 input{
@@ -107,7 +102,7 @@ button:hover{
 
   .c-wrapper {
     flex-direction: column;
-    padding: 0px 50px;
+    /* padding: 0px 50px; */
   }
 
   .c-title{
@@ -117,19 +112,14 @@ button:hover{
   }
 
   .c-info-item{
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
+    margin: 5% 0 5% 0;
     width: 100%;
     /* text-align: center; */
   }
 
   .c-left{
     margin-left: 0px;
-  }
-
-  form{
-    margin-top: 0px;
-    display: flex;
-    flex-wrap: wrap;
   }
 
   input {
@@ -157,5 +147,11 @@ button:hover{
 
   .c-title{
     margin: 5%;
+  }
+
+  form{
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
