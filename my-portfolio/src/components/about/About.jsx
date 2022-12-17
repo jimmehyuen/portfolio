@@ -12,7 +12,7 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-desc">
-          Hello, my name is Jimmy and I used to work in banking. During COVID-19 lockdown, I started learning to code online. I really enjoyed the problem solving aspect of it and eventually decided to attend the Web Development bootcamp at Le Wagon in January 2022. I am currently seeking an entry-level role as a Full Stack Developer.
+          Hello, my name is Jimmy and I used to work in banking. During COVID-19 lockdown, I started learning to code online. I really enjoyed the problem solving aspect of it and eventually decided to attend the Web Development bootcamp at Le Wagon in January 2022. I am currently working as a Junior Web Developer at <a href="https://www.3bweb.com" target="_blank">3B Digital</a>.
         </p>
         <h2 className="techstack-title"> Tech Stack</h2>
         <div className="techstack">

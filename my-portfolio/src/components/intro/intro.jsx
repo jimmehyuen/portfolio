@@ -13,7 +13,7 @@ const Intro = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ['Front-end Developer', 'Back-end Developer', 'UI/UX Designer' ] })
+      strings: ['Front-end Developer', 'Back-end Developer' ] })
   },[])
 
   return (
@@ -28,7 +28,7 @@ const Intro = () => {
             </div>
           </div>
           <div className="i-desc">
-            I am an aspiring Full-stack Developer based in London
+            I am a Full-stack Developer based in London
           </div>
           <div className="i-icon-wrapper">
             <a href="https://github.com/jimmehyuen" target="_blank" rel="noreferrer"><img src="github.png" class="i-icon" alt="" /></a>
