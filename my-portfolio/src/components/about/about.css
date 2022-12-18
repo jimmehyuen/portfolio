@@ -56,11 +56,12 @@
 }
 
 .techstack{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  /* display: flex;
+  flex-wrap: wrap; */
+  display: inline-grid;
+  grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  /* justify-content: center; */
+  gap: 20px;
 }
 
 .techstack-title{
@@ -88,6 +89,13 @@
 
   .a-img{
     /* height: max-content; */
+  }
+
+  .techstack{
+    display: flex;
+    /* grid-template-columns: none; */
+    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
