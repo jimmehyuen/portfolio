@@ -13,7 +13,7 @@ const Intro = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ['Front-end Developer', 'Back-end Developer' ] })
+      strings: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React', 'Ruby on Rails', 'PHP' ] })
   },[])
 
   return (
