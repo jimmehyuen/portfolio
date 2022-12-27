@@ -1,2 +1,0 @@
-# portfolio
-Jimmy's portfolio
